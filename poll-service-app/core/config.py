@@ -16,6 +16,11 @@ class DatabaseConfig(BaseModel):
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(
+        env_file=(".env.template", ".env"),
+        env_nested_delimiter="_",
+        case_sensitive=False,
+    )
     run: RunConfig = RunConfig()
     db: DatabaseConfig
 
