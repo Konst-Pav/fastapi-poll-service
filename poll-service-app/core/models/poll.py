@@ -15,4 +15,5 @@ class Poll(Base):
 
     options: Mapped[list["Option"]] = relationship(
         back_populates="poll",
+        lazy="selectin",
     )
