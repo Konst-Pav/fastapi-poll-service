@@ -52,4 +52,5 @@ jobs:
         env:
           DBTEST_URL: postgresql+asyncpg://user:password@localhost:5433/poll_db_test
         run: |
+          poetry add pytest
           pytest ./api/tests.py
