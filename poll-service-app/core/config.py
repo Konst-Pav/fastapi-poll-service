@@ -20,6 +20,7 @@ class Settings(BaseSettings):
         env_file=(".env.template", ".env"),
         env_nested_delimiter="_",
         case_sensitive=False,
+        extra="ignore",
     )
     run: RunConfig = RunConfig()
     db: DatabaseConfig
