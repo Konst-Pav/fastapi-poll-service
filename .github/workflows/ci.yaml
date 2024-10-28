@@ -14,11 +14,11 @@ jobs:
 
     services:
       postgres:
-        image: postgres:13
+        image: postgres
         env:
           POSTGRES_USER: user
           POSTGRES_PASSWORD: password
-          POSTGRES_DB_TEST: poll_db_test
+          POSTGRES_DB: poll_db_test
         ports:
           - 5433:5432
         options: >-
