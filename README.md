@@ -1,5 +1,7 @@
 # HTTP-сервис для проведения опросов
 
+[![CI](https://github.com/Konst-Pav/fastapi-poll-service/actions/workflows/ci.yaml/badge.svg)](https://github.com/Konst-Pav/fastapi-poll-service/actions/workflows/ci.yaml)
+
 Этот проект представляет собой HTTP-сервис для голосования, разработанный с использованием FastAPI. Сервис позволяет создавать опросы с вариантами ответов, отправлять свои голоса и просматривать результаты.
 
 ## Оглавление
