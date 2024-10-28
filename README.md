@@ -92,5 +92,5 @@
 
 ## Тестирование
    ```bash
-   pytest ./poll-service-app/api/tests.py
+   pytest ./poll-service-app/api/test_views.py
    ```
